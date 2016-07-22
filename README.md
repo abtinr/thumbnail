@@ -3,6 +3,7 @@ Creates thumbnail from a given form. It basically detects logos, texts, border, 
 
 ## Setup
 
+
 ## Usage
 `main.py` is the entry point of the code and can be used as following:
 ```
@@ -13,7 +14,7 @@ for example:
 $ python src/main.py testdata/form.jpg testdata/thumbnail.png
 ```
 
-# The algorithm
+## The algorithm
 The algorithm follows these steps:
 
 1. **Thresholding.** Otsu method is used to find the threshold automatically

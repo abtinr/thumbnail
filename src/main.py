@@ -1,7 +1,7 @@
 
 import sys
 from matplotlib.image import imread, imsave
-from thumbnailfilter import ThumbnailFilter
+from imageprocessinglib.thumbnailfilter import ThumbnailFilter
 
 if __name__ == '__main__':
     imagefilename = sys.argv[1]
